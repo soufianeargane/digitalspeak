@@ -343,7 +343,6 @@ main .right_content .date__ {
 /* services */
 .services {
     display: flex;
-    height: 100vh;
     margin-top: 50px;
 }
 
@@ -359,6 +358,7 @@ main .right_content .date__ {
 .middle_div {
     width: 84%;
     background-color: #EEEDED;
+
 }
 
 .middle_div h1 {
@@ -443,4 +443,22 @@ main .right_content .date__ {
     font-size: 30px;
     font-weight: 800;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.middle_div .description__ {
+    padding: 10px 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1A1A1A;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.middle_div .button__ {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
